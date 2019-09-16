@@ -19,18 +19,17 @@ security:
     resource:
       user-info-uri: http://localhost:7777/user
 spring:
-  profiles: prod
-datasource:
-  sampleapp:
-    url: jdbc:mysql://localhost:3306/expenses
-    username: root
-    password: root
-    driverClassName: com.mysql.jdbc.Driver
-    defaultSchema:
-    maxPoolSize: 20
-    hibernate:
-      hbm2ddl.method: update
-      show_sql: true
-      format_sql: true
-      dialect: org.hibernate.dialect.MySQLDialect
+  datasource:
+    sampleapp:
+      url: jdbc:mysql://localhost:3306/expenses
+      username: root
+      password: root
+      driverClassName: com.mysql.jdbc.Driver
+      defaultSchema:
+      maxPoolSize: 20
+      hibernate:
+        hbm2ddl.method: update
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
 
