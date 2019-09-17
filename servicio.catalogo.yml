@@ -12,7 +12,7 @@ eureka:
 
 # HTTP Server
 server:
-  port: ${PORT:1111}   # HTTP (Tomcat) port
+  port: 1111   # HTTP (Tomcat) port
 
 security:
   oauth2:
