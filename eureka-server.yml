@@ -7,3 +7,5 @@ eureka:
       defaultZone: http://localhost/eureka/
     registerWithEureka: false
     fetchRegistry: false
+  instance:
+    preferIpAddress: true
